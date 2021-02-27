@@ -24,7 +24,7 @@ $(document).ready(function () {
     });
 
     // ======= Features Carousel, Screenshots Carousel, Testimoial =======
-    $(".features-carousel, .screenshots-carousel, .testimonials-carousel").owlCarousel({
+    $(".features-carousel, .screenshots-carousel, .testimonials-carousel, .team-carousel").owlCarousel({
         loop: true,
         margin: 0,
         autoplay: true,
