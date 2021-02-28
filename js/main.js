@@ -42,4 +42,9 @@ $(document).ready(function () {
         }
     });
 
+    // Page Scrolling - Scrollit
+    $.scrollIt({
+        topOffset: -50
+    });
+
 })
