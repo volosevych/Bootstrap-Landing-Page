@@ -1,23 +1,8 @@
 /* === Google Fonts === */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('./root.css');
 
 /* === Global Css === */
-:root {
-    --main-color: #7857fe;
-    --color-1: #e91e63;
-    --color-2: #f5ae10;
-    --color-3: #09d69c;
-    --bg-dark: #2b2c2f;
-    --main-to-dark-color: var(--main-color);
-    --dark-to-main-color: var(--bg-dark);
-    --shadow-black-100: 0 5px 15px rgba(0, 0, 0, 0.1);
-    --shadow-black-300: 0 5px 15px rgba(0, 0, 0, 0.3);
-    --black-900: #000000;
-    --black-400: #555555;
-    --black-100: #f7f7f7;
-    --black-alpha-100: rgba(172, 169, 169, 0.281);
-}
-
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
@@ -1035,4 +1020,101 @@ ul {
 
     margin: 50px 0 0;
     border-top: 1px solid rgba(225, 255, 255, 0.2);
+}
+
+/* ================= media ================*/
+@media (max-width: 991px) {
+    .navbar-toggler {
+        background-color: var(--main-color) !important;
+        box-shadow: var(--shadow-black-300);
+        height: 34px;
+        width: 44px;
+        padding: 0;
+        font-size: 16px;
+        color: #fff;
+    } 
+
+    .navbar-nav {
+        padding: 15px;
+        background-color: var(--dark-to-main-color) !important;
+        box-shadow: var(--shadow-black-300);
+    }
+
+    .navbar .nav-item {
+        margin: 0;
+        padding: 5px 15px;
+    }
+
+    .navbar.navbar-shrink .navbar-toggler,
+    .navbar.navbar-shrink .navbar-nav {
+        background-color: var(--main-color);
+    }
+
+    .home-img .circle {
+        height: 320px;
+        width: 320px;
+    }
+
+    .home-img .circle::before {
+        left: 18px;
+        top: 18px;
+        transform-origin: 142px 142px;
+    }
+
+    .home-text h1 {
+        font-size: 40px;
+    }
+
+    .app-download-item,
+    .how-it-works-item,
+    .pricing-plan,
+    .footer-col {
+        margin-bottom: 30px;
+    }
+
+    .how-it-works-item.line-right::before {
+        display: none;
+    }
+
+    .how-it-works-item {
+        box-shadow: var(--shadow-black-100);
+        border-radius: 10px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .home-text {
+        margin-bottom: 80px;
+    }
+
+    .fun-facts-img {
+        margin-bottom: 30px;
+    }
+    
+    .contact-form {
+        margin-top: 20px;
+    }
+
+    .section-title h2 {
+        font-size: 35px;
+    }
+
+    .fun-facts .section-title h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575) {
+    .home-text h1{
+        font-size: 30px;
+    }
+
+    .home-text p {
+        font-size: 16px;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
 }

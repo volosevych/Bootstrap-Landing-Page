@@ -47,4 +47,9 @@ $(document).ready(function () {
         topOffset: -50
     });
 
+    // Navbar Collapse
+    $(".nav-link").on("click", function() {
+        $(".navbar-collapse").Collapse("hide")
+    })
+
 })
