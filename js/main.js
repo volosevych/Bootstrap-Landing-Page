@@ -1,3 +1,8 @@
+// Preload
+$(window).on("load", function () {
+    $(".preloader").fadeOut("slow");
+});
+
 $(document).ready(function () {
     // ======= navbar shrink =======
     $(window).on("scroll", function() {
