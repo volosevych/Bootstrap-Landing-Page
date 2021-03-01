@@ -10,7 +10,8 @@
 ![License](https://img.shields.io/badge/License--blue.svg "License Badge")
 
 I made this app using Bootstrap, CSS Animation, JavaScript. This website is fully responsive for phone devices 
-    also, I did the dark and light themes, so your eyes will be safe at night :)
+
+   also, I did the dark and light themes, so your eyes will be safe at night :)
 
 - [Website Link](https://volosevych.github.io/Bootstrap-Landing-Page/)
 
