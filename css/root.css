@@ -13,3 +13,18 @@
     --black-100: #f7f7f7;
     --black-alpha-100: rgba(172, 169, 169, 0.281);
 }
+
+body.dark {
+    background-color: var(--bg-dark);
+
+    --black-100: var(--bg-dark);
+    --black-000: var(--bg-dark);
+    --main-to-dark-color: var(--bg-dark);
+    --dark-to-main-color: var(--main-color);
+
+    --shadow-black-100: var(--shadow-black-300);
+    --black-alpha-100: rgba(225, 255, 255, 0.05);
+
+    --black-900: #fff;
+    --black-400: #bbb;
+}

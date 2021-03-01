@@ -966,6 +966,29 @@ ul {
     border-color: var(--main-color);
 }
 
+/* ================== Toggle Theme - light and dark mode ================= */
+.toggle-theme {
+    position: fixed;
+    right: 0;
+    top: 50%;
+
+    height: 40px;
+    width: 40px;
+
+    background-color: var(--dark-to-main-color);
+    border-radius: 50%;
+    box-shadow: var(--shadow-black-300);
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.toggle-theme i {
+    line-height: 40px;
+}
+
 /* =========== Footer ========== */
 .footer {
     background-color: var(--main-color);
@@ -1025,7 +1048,7 @@ ul {
 /* ================= media ================*/
 @media (max-width: 991px) {
     .navbar-toggler {
-        background-color: var(--main-color) !important;
+        background-color: var(--main-to-dark-color);
         box-shadow: var(--shadow-black-300);
         height: 34px;
         width: 44px;
@@ -1036,7 +1059,7 @@ ul {
 
     .navbar-nav {
         padding: 15px;
-        background-color: var(--dark-to-main-color) !important;
+        background-color: var(--main-color);
         box-shadow: var(--shadow-black-300);
     }
 
