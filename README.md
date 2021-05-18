@@ -21,7 +21,7 @@ I made this app using Bootstrap, CSS Animation, JavaScript. This website is full
 - [License](https://opensource.org/licenses/)
 
 ## Questions:
-    For questions about the Generator you can go to my 
+    For questions you can go to my 
     GitHub page at the following Link: 
 - [GitHub Profile](https://github.com/volosevych)
 
