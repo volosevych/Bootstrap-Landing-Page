@@ -21,8 +21,5 @@ I made this app using Bootstrap, CSS Animation, JavaScript. This website is full
 - [License](https://opensource.org/licenses/)
 
 ## Questions:
-    For questions you can go to my 
-    GitHub page at the following Link: 
-- [GitHub Profile](https://github.com/volosevych)
 
 For additional questions please reach out to my email at: volosevichh@gmail.com.
